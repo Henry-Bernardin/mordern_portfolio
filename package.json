@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://henry-bernardin.github.io/mordern_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o /css/ --recursive",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages"
   },
   "author": "Henry Bernardin",
