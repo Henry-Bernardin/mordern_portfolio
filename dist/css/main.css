@@ -285,7 +285,7 @@ main {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-.resume span:hover {
+.resume span a:hover {
   color: #000;
 }
 
