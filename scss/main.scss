@@ -1,6 +1,6 @@
 @import 'config';
 @import 'menu';
-@import 'mobile';
+
 
 * {
   box-sizing: border-box;
@@ -113,8 +113,6 @@ main{
 }
 
 
-
-
 // Work/Projects
 .projects {
   display: grid;
@@ -191,6 +189,6 @@ main{
   height: 60px;
 }
 
-
+@import 'mobile';
 
 
