@@ -254,11 +254,11 @@ main {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu.nav {
-    height: 75vh;
+    height: 70vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .menu-branding {
-    height: 25vh;
+    height: 30vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url("/img/portrait_small.jpg");
@@ -281,6 +281,7 @@ main {
   .projects {
     grid-template-columns: 1fr; }
   ul.nav-item {
-    margin-bottom: 550px; }
+    margin-bottom: 550px;
+    padding-bottom: 200px; }
   .boxes div {
     font-size: 1rem; } }
