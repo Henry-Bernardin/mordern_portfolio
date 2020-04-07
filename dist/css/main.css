@@ -57,7 +57,8 @@
       background: url("/img/IMG_0158 3.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a;
-      z-index: 0; }
+      z-index: 0;
+      background-size: cover; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -260,9 +261,10 @@ main {
     height: 30vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("/img/portrait_small.jpg");
+      background: url("/img/IMG_0158 3.jpg");
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      background-size: cover; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
