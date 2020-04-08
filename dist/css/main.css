@@ -291,5 +291,12 @@ main {
   ul.nav-item {
     margin-bottom: 550px;
     padding-bottom: 200px; }
+  li.nav-item.show {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-top: -25px;
+    padding-top: 3px;
+    bottom: 195px; }
   .boxes div {
     font-size: 1rem; } }
