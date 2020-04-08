@@ -271,8 +271,12 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); }
   li.nav-item.show {
+    position: relative;
     padding: 0;
-    margin: 0; } }
+    margin: 0;
+    margin-top: -25px;
+    padding-top: 3px;
+    bottom: 155px; } }
 
 @media screen and (max-width: 500px) {
   main {
